@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Mentoria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>MENTORIA</h1>
+    <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+  </header>
+
+  <form>
+
+    <div class="informações-pessoais">
+      <h2>INFORMAÇÕES PESSOAIS</h2>
+        <div class="nome-completo">
+          <div class="campo">
+            <label for="Nome">Nome</label>
+            <input type="text" name="Nome" id="Nome">
+          </div>
+          <div class="campo">
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="Sobrenome">
+          </div>
+        </div>
+      
+
+      <div class="campo">
+        <label for="Email">Email<span> (digite um email valido)</span></label>
+        <input type="text" name="Email" id="Email">
+      </div>
+
+      <div class="campo">
+        <label for="Senha">Senha<span> (minimo de 6 caracteres)</span></label>
+        <input type="password" name="Senha" id="Senha">
+      </div>
+    </div>
+
+    <div class="informações-mentor">
+      <h2>INFORMAÇÕES DO MENTOR</h2>
+      <div class="campo">
+        <label for="Nome do seu mentor">Nome do seu mentor<span> (só o primeiro nome)</span></label>
+        <input type="text" name="Nome do seu mentor" id="Nome do seu mentor">
+      </div>
+    </div>
+
+    <div class="horarios">
+      <h2>SEUS HORÁRIOS DISPONÍVEIS</h2>
+      <h3>PRIMEIRA MENTORIA</h3>
+        <div class="campo">
+          <label for="Data1">Data<span> (DD/MM/AAAA)</span></label>
+          <input type="date" name="Data" id="Data1">
+        </div> 
+        <div class="campo">
+          <label for="Das1">Das</label>
+          <input type="time" name="Das" id="Das1">
+        </div> 
+        <div class="campo">
+          <label for="Até1">Até</label>
+          <input type="time" name="Até" id="Até1">
+        </div> 
+      <h3>SEGUNDA MENTORIA</h3>
+        <div class="campo">
+          <label for="Data2">Data<span> (DD/MM/AAAA)</span></label>
+          <input type="date" name="Data" id="Data2">
+        </div> 
+        <div class="campo">
+          <label for="Das2">Das</label>
+          <input type="time" name="Das" id="Das2">
+        </div> 
+        <div class="campo">
+          <label for="Até2">Até</label>
+          <input type="time" name="Até" id="Até2">
+        </div>
+    </div> 
+    
+  </form>
+    
+  <footer>
+    <button type="submit">SALVAR</button>
+  </footer>
+  
+
+</body>
+</html>
